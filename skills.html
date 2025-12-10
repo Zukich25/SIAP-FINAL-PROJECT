@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skills - Cabansay</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+<nav>
+    <div class="logo">
+        <img src="logo.png" alt="Logo">
+        <div>
+            <h2>CABANSAY</h2>
+            <p>BE BOLD, BE UNIQUE</p>
+        </div>
+    </div>
+    <ul>
+        <li><a href="index.html" style="color: red;">ABOUT</a></li>
+        <li><a href="skills.html">PROJECTS</a></li>
+        <li><a href="contact.html">CONTACT</a></li>
+    </ul>
+</nav>
+
+    <section class="skills" id="skills">
+        <h2>MY <span>PROJECTS</span></h2>
+        <p class="skills-desc">
+            This is our projects.
+        </p>
+        <div class="skill-boxes">
+            <!-- 
+                Each skill card image is clickable. 
+                The hidden file input directly after the image is used to pick a replacement image.
+                You can change the default image paths and the SEE MORE links below.
+            -->
+            <div class="skill-card" data-skill-id="html">
+                <img src="Spotthefake.svg.PNG" alt="HTML" class="skill-image">
+                <!-- Hidden file input used only by JavaScript when you click the image -->
+                <input type="file" accept="image/*" class="skill-image-input" aria-label="Upload HTML skill image">
+                <p>SPOT THE FAKE.</p>
+                <!-- Edit this link to point wherever you want for the HTML skill -->
+                <a href="https://siap-1.netlify.app/?fbclid=IwY2xjawOdDMZleHRuA2FlbQIxMABicmlkETE4bDBSRXhidFhJcXY3MFlNc3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHq2Kmpf-62PogV59SfSRz1LQJ9W9OVO3X11W3EpgTUlQRSbWt4lSVnbJK4cl_aem_vfYGuo6YtLG5ZIOactxpIg" class="see-more-btn">SEE MORE</a>
+            </div>
+            <div class="skill-card" data-skill-id="css">
+                <img src="rykz.svg.PNG" alt="CSS" class="skill-image">
+                <!-- Hidden file input used only by JavaScript when you click the image -->
+                <input type="file" accept="image/*" class="skill-image-input" aria-label="Upload CSS skill image">
+                <p>RYKZ MOTOR CARE.</p>
+                <!-- Edit this link to point wherever you want for the CSS skill -->
+                <a href="https://jamesinoc.github.io/FINAL-WEBPAGE/" class="see-more-btn">SEE MORE</a>
+            </div>
+            <div class="skill-card" data-skill-id="javascript">
+                <img src="Imagesjava-programming-language-icon.svg" alt="JavaScript" class="skill-image">
+                <!-- Hidden file input used only by JavaScript when you click the image -->
+                <input type="file" accept="image/*" class="skill-image-input" aria-label="Upload JavaScript skill image">
+                <p>Added interactivity with JavaScript to make the logo dynamic, responsive to user actions, and more engaging for visitors.</p>
+                <!-- Edit this link to point wherever you want for the JavaScript skill -->
+                <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" class="see-more-btn">SEE MORE</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills page interactivity -->
+    <script src="skills.js"></script>
+</body>
+</html>
